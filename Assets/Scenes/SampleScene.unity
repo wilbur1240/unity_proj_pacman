@@ -1308,7 +1308,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec51dc19995d1f34d88a2f6740c81e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /cube_position
+  Topic: /pacman_scale_pose
   TimeStep: 0
   Transform_target: {fileID: 660719837}
 --- !u!114 &1062372495
@@ -1354,7 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d23e6c3790d0d347a7af1eed9957917, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: 
+  Topic: /ghost2_scale_pose
   TimeStep: 0
   Transform_target: {fileID: 365183011}
 --- !u!114 &1062372498
@@ -1369,7 +1369,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2c28ed52477f8a48a648ebc4de7f055, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: 
+  Topic: /ghost1_scale_pose
   TimeStep: 0
   Transform_target: {fileID: 655665193}
 --- !u!1 &1208873925
