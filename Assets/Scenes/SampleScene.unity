@@ -712,7 +712,6 @@ GameObject:
   - component: {fileID: 660719836}
   - component: {fileID: 660719835}
   - component: {fileID: 660719834}
-  - component: {fileID: 660719838}
   m_Layer: 0
   m_Name: PacMan
   m_TagString: Untagged
@@ -798,25 +797,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &660719838
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 660719833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0f2d5a66aec904ad28cc2cce58948cbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  temperature: 1
-  cachedMaterialTag: 
-  cachedColor:
-    r: 0
-    g: 0
-    b: 0
-    a: 0
 --- !u!1 &663358530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8758423527188247893, guid: 5b158b94c373d4b4f9e98cdb92789343,
@@ -1308,7 +1288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec51dc19995d1f34d88a2f6740c81e60, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Topic: /pacman_scale_pose
+  Topic: /pacman_pose
   TimeStep: 0
   Transform_target: {fileID: 660719837}
 --- !u!114 &1062372495
@@ -1589,7 +1569,7 @@ MonoBehaviour:
   desired_object:
   - {fileID: 387855229}
   - {fileID: 1062372492}
-  updated_rosip: ws://192.168.50.78:9090
+  updated_rosip: ws://192.168.50.81:9090
 --- !u!1 &1517779218
 GameObject:
   m_ObjectHideFlags: 0
