@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PowerPellet
   - Maze
+  - Ghost
   layers:
   - Default
   - TransparentFX

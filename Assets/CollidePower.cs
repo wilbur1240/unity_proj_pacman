@@ -16,5 +16,15 @@ public class CollidePower : MonoBehaviour
         {
             Debug.Log("Collide wall !!!");
         }
+        if (collision.gameObject.tag == "Ghost")
+        {
+            Debug.Log("Game over !!!");
+            LoadScene();
+        }
+    }
+
+    void LoadScene()
+    {
+        Application.LoadLevel("SampleScene");
     }
 }
