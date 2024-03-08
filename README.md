@@ -16,3 +16,7 @@ This repo contain some assets and scripts to display pacman_game in 3D with unit
     $ ifconfig //check your ip to connect to unity.
 
 5.Press "run" button on unity then run your python code on another device.
+
+# Demonstration
+
+https://github.com/wennnny/PacMan-unity/assets/133328407/c0939bbc-be7e-400f-aeae-45d2cc8add61
