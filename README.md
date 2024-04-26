@@ -8,17 +8,17 @@ This repo contain some assets and scripts to display pacman_game in 3D with unit
 
 ## Unity Side
 
-1.Clone this repository with submodules
+1. Clone this repository with submodules
 
     $ git clone --recursive git@github.com:wennnny/PacMan-unity.git
 
-2.Open the project "PacMan-unity" in unity.
+2. Open the project "PacMan-unity" in unity.
 
-3.Choose "SimpleScenes" in /Assets/Scenes in Project in the lower left.
+3. Choose "SimpleScenes" in /Assets/Scenes in Project in the lower left.
 
-4.Set IP in "Update_IP"(you need config your ip in the device where you run pacman.py)
+4. Set IP in "Update_IP"(you need config your ip in the device where you run pacman.py)
 
-5.Press "run" button on unity then run your python code on another device.
+5. Press "run" button on unity then run your python code on another device.
 
 ## Pygame Side
 
