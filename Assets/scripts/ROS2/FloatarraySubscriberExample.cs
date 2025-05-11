@@ -4,11 +4,11 @@ using RosMessageTypes.Std;
 
 public class FloatarraySubscriberExample : MonoBehaviour
 {
-    // [Tooltip("Transform to be moved according to received ROS message")]
-    public Transform Transform_target;
-
     // [Tooltip("ROS topic to subscribe to (e.g., /pacman_pose)")]
     public string topicName;
+
+    // [Tooltip("Transform to be moved according to received ROS message")]
+    public Transform Transform_target;
 
     private ROSConnection ros;
     private float[] data;
@@ -16,7 +16,7 @@ public class FloatarraySubscriberExample : MonoBehaviour
 
     void Start()
     {
-        ros = ROSConnection.GetOrCreateInstance();
+        ros = ROSManager.Ros;
         ros.Subscribe<Float32MultiArrayMsg>(topicName, ReceiveMessage);
     }
 

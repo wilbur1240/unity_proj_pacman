@@ -18,7 +18,7 @@ public class FloatarraySubGhostOrange_tcp : MonoBehaviour
 
     void Start()
     {
-        ros = ROSConnection.GetOrCreateInstance();
+        ros = ROSManager.Ros;
         ros.Subscribe<Float32MultiArrayMsg>(topicName, ReceiveMessage);
     }
 

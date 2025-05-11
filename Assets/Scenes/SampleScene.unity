@@ -1119,9 +1119,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 201965301}
-  - component: {fileID: 201965302}
-  - component: {fileID: 201965304}
-  - component: {fileID: 201965303}
   m_Layer: 0
   m_Name: subscriber_example
   m_TagString: Untagged
@@ -1143,48 +1140,6 @@ Transform:
   m_Father: {fileID: 1228947789}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &201965302
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201965300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed20fe50b85eee33bb58f5c4a4824a82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topicName: /ghost_blue_pose
-  Transform_target: {fileID: 655665193}
---- !u!114 &201965303
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201965300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9324accf31730dfd3b167cd6534ea1aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Transform_target: {fileID: 660719837}
-  topicName: /pacman_pose
---- !u!114 &201965304
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 201965300}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 276202550e356a112b87261ace2fd88a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  topicName: /ghost_orange_pose
-  Transform_target: {fileID: 365183011}
 --- !u!1001 &236340961
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2050,6 +2005,7 @@ GameObject:
   - component: {fileID: 365183010}
   - component: {fileID: 365183009}
   - component: {fileID: 365183008}
+  - component: {fileID: 365183012}
   m_Layer: 0
   m_Name: GhostOrange
   m_TagString: Ghost
@@ -2133,6 +2089,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &365183012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 365183007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 276202550e356a112b87261ace2fd88a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topicName: /ghost2_scale_pose
+  Transform_target: {fileID: 365183011}
 --- !u!1001 &365924324
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3661,6 +3631,7 @@ GameObject:
   - component: {fileID: 655665192}
   - component: {fileID: 655665191}
   - component: {fileID: 655665190}
+  - component: {fileID: 655665194}
   m_Layer: 0
   m_Name: GhostBlue
   m_TagString: Ghost
@@ -3744,6 +3715,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &655665194
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655665189}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed20fe50b85eee33bb58f5c4a4824a82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topicName: /ghost1_scale_pose
+  Transform_target: {fileID: 655665193}
 --- !u!1 &657179618 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1189647692537122, guid: 296eeb3b9bc02fb44927747cd46985d7,
@@ -3785,6 +3770,7 @@ GameObject:
   - component: {fileID: 660719838}
   - component: {fileID: 660719834}
   - component: {fileID: 660719840}
+  - component: {fileID: 660719841}
   m_Layer: 0
   m_Name: PacMan
   m_TagString: Untagged
@@ -3913,6 +3899,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.95455873, y: 0.9351763, z: 0.99041}
   m_Center: {x: 0.0000073313713, y: 0.49241188, z: 0.027616918}
+--- !u!114 &660719841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 660719833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9324accf31730dfd3b167cd6534ea1aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  topicName: /pacman_scale_pose
+  Transform_target: {fileID: 660719837}
 --- !u!1 &663358530 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8758423527188247893, guid: 5b158b94c373d4b4f9e98cdb92789343,
@@ -7377,6 +7377,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1228947789}
+  - component: {fileID: 1228947790}
   m_Layer: 0
   m_Name: ROS2_connect
   m_TagString: Untagged
@@ -7399,6 +7400,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1228947790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1228947788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c278ede45aaa7f880bb0ecd7c867c1ad, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1241578593
 PrefabInstance:
   m_ObjectHideFlags: 0
